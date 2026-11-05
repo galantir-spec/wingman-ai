@@ -52,3 +52,20 @@ Core runs on Windows, macOS and Linux. Guard OS-specific imports behind `platfor
 ## Docs and skills
 
 Update `README.md` and `docs/` for new providers, major features or setup changes, not for bug fixes. Before working on a skill, read [skills/AGENTS.md](skills/AGENTS.md).
+
+## Agent skills
+
+### Issue tracker
+
+Before reading or publishing issues, specs, or tickets, read
+`docs/agents/issue-tracker.md`. Issues live in `galantir-spec/wingman-ai`.
+
+### Triage labels
+
+Before triaging issues, read `docs/agents/triage-labels.md` for the five
+canonical labels.
+
+### Domain docs
+
+Before exploring the codebase, read `docs/agents/domain.md`.
+Use the single-context layout: root `CONTEXT.md` and `docs/adr/`.
